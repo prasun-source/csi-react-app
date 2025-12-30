@@ -57,7 +57,7 @@ jobs:
       - name: Set up JFrog CLI
         uses: jfrog/setup-jfrog-cli@v4
         env:
-          JF_URL: ${{ secrets.https://takedaawsuseast.jfrog.io/ui/ }}
+          JF_URL: ${{ secrets.https://takedaawsuseast.jfrog.io/ui }}
           JF_ACCESS_TOKEN: ${{ secrets.TOKEN }}
  
       - name: Upload artifact to JFrog
